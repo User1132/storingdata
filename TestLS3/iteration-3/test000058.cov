@@ -1,0 +1,11 @@
+/home/minjong/symtuner/benchmarks/coreutils-8.32/obj-llvm/../src/ls.c:1863
+../src/ls.c:1865
+../src/ls.c:1867
+../src/ls.c:1868
+../src/ls.c:1961
+../src/ls.c:1973
+../src/ls.c:1974
+libc/unistd/getopt.c:453
+libc/unistd/getopt.c:818
+libc/unistd/getopt.c:1085
+libc/unistd/getopt.c:1152

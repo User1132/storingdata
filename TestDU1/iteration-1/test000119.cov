@@ -1,0 +1,9 @@
+../lib/exclude.c:472
+../lib/exclude.c:483
+libc/misc/fnmatch/fnmatch_old.c:75
+libc/misc/fnmatch/fnmatch_old.c:76
+libc/misc/fnmatch/fnmatch_old.c:77
+libc/misc/fnmatch/fnmatch_old.c:80
+libc/misc/fnmatch/fnmatch_old.c:81
+libc/misc/fnmatch/fnmatch_old.c:82
+libc/misc/fnmatch/fnmatch_old.c:83

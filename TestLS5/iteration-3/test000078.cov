@@ -1,0 +1,16 @@
+/home/minjong/symtuner/benchmarks/coreutils-8.32/obj-llvm/../src/ls.c:1625
+../src/ls.c:1827
+../src/ls.c:1828
+../src/ls.c:1829
+/home/minjong/symtuner/benchmarks/coreutils-8.32/obj-llvm/../lib/hash.c:696
+../lib/hash.c:168
+../lib/hash.c:696
+../lib/hash.c:698
+../lib/hash.c:699
+../lib/hash.c:703
+../lib/hash.c:722
+../lib/hash.c:724
+../lib/hash.c:732
+../lib/hash.c:741
+../lib/hash.c:742
+../lib/hash.c:743

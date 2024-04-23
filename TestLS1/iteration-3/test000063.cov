@@ -1,0 +1,9 @@
+/home/minjong/symtuner/benchmarks/coreutils-8.32/obj-llvm/../src/ls.c:3181
+../src/ls.c:1754
+../src/ls.c:1759
+../src/ls.c:3183
+../src/ls.c:3185
+../src/ls.c:3186
+../lib/mpsort.c:98
+../lib/mpsort.c:99
+../lib/mpsort.c:100

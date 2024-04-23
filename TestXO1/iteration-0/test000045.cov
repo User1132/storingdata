@@ -1,0 +1,4 @@
+../xorriso/text_io.c:417
+/home/minjong/symtuner/benchmarks/xorriso-1.5.2/obj-llvm/../xorriso/sfile.c:632
+../xorriso/sfile.c:649
+../xorriso/sfile.c:734

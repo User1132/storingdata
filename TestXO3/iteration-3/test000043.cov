@@ -1,0 +1,7 @@
+../xorriso/parse_exec.c:2243
+../xorriso/parse_exec.c:2244
+../xorriso/parse_exec.c:2300
+../xorriso/parse_exec.c:2303
+/home/minjong/symtuner/benchmarks/xorriso-1.5.2/obj-llvm/../xorriso/opts_i_o.c:1360
+../xorriso/opts_i_o.c:1360
+../xorriso/opts_i_o.c:1362

@@ -1,0 +1,12 @@
+/home/minjong/symtuner/benchmarks/coreutils-8.32/obj-llvm/../src/du.c:279
+/home/minjong/symtuner/benchmarks/coreutils-8.32/obj-llvm/../src/du.c:723
+../src/du.c:279
+../src/du.c:281
+../src/du.c:282
+../src/du.c:360
+../src/du.c:727
+../src/du.c:820
+../src/du.c:928
+../lib/quotearg.c:1063
+../lib/quotearg.c:1075
+../lib/quotearg.c:1081

@@ -1,0 +1,13 @@
+/home/minjong/symtuner/benchmarks/coreutils-8.32/obj-llvm/../lib/argmatch.c:82
+../lib/argmatch.c:117
+../lib/argmatch.c:120
+../lib/argmatch.c:121
+../src/du.c:758
+../src/du.c:860
+../src/du.c:862
+../src/du.c:863
+../lib/human.c:414
+../lib/human.c:429
+../lib/human.c:436
+../lib/human.c:437
+../lib/human.c:439

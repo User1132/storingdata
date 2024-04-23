@@ -1,0 +1,19 @@
+Error: memory error: out of bound pointer
+File: libc/string/strlen.c
+Line: 22
+assembly.ll line: 293602
+Stack: 
+	#000293602 in strlen (=94478633779199) at libc/string/strlen.c:22
+	#100113068 in Exclusions_match (=94476445706176, =94478633779200, =0) at ../xorriso/aux_objects.c:815
+	#200109862 in Xorriso_path_is_hidden (=94476476006400, =94478633779200) at ../xorriso/parse_exec.c:3138
+	#300107119 in Xorriso_graft_in (=94476476006400, =0, =94478633779200, =94479383904256, =0, =0, =0) at ../xorriso/iso_manip.c:832
+	#400219511 in Xorriso_option_add (=94476476006400, =4, =94477518548416, =94476474000664, =0) at ../xorriso/opts_a_c.c:186
+	#500028859 in Xorriso_interpreter (=94476476006400, =4, =94477518548416, =94476474000664, =2) at ../xorriso/parse_exec.c:1053
+	#600026171 in __klee_posix_wrapped_main (=4, =94476423723872) at ../xorriso/xorriso_main.c:265
+	#700009534 in __user_main (=15, =94476078440688, =94476078440816) at /home/minjong/learch/klee/runtime/POSIX/klee_init_env.c:245
+	#800006122 in __uClibc_main (=15, =94476078440688) at libc/misc/internals/__uClibc_main.c:401
+	#900006288 in main (=15, =94476078440688)
+Info: 
+	address: 94478633779199
+	next: object at 22826720959168 of size 1536
+		MO30[1536] (no allocation info)

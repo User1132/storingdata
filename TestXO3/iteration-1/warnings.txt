@@ -1,0 +1,63 @@
+KLEE: WARNING ONCE: function "Wait_for_input" has inline asm
+KLEE: WARNING: undefined reference to function: BZ2_bzCompress
+KLEE: WARNING: undefined reference to function: BZ2_bzCompressEnd
+KLEE: WARNING: undefined reference to function: BZ2_bzCompressInit
+KLEE: WARNING: undefined reference to function: __isoc99_sscanf
+KLEE: WARNING: undefined reference to function: alarm
+KLEE: WARNING: undefined reference to function: compress2
+KLEE: WARNING: undefined reference to function: compressBound
+KLEE: WARNING: undefined reference to function: deflate
+KLEE: WARNING: undefined reference to function: deflateEnd
+KLEE: WARNING: undefined reference to function: deflateInit2_
+KLEE: WARNING: undefined reference to function: deflateInit_
+KLEE: WARNING: undefined reference to function: getxattr
+KLEE: WARNING: undefined reference to function: inflate
+KLEE: WARNING: undefined reference to function: inflateEnd
+KLEE: WARNING: undefined reference to function: inflateInit2_
+KLEE: WARNING: undefined reference to function: lgetxattr
+KLEE: WARNING: undefined reference to function: listxattr
+KLEE: WARNING: undefined reference to function: llistxattr
+KLEE: WARNING: undefined reference to function: lremovexattr
+KLEE: WARNING: undefined reference to function: lsetxattr
+KLEE: WARNING: undefined reference to function: pthread_attr_init
+KLEE: WARNING: undefined reference to function: pthread_attr_setdetachstate
+KLEE: WARNING: undefined reference to function: pthread_cancel
+KLEE: WARNING: undefined reference to function: pthread_cond_destroy
+KLEE: WARNING: undefined reference to function: pthread_cond_init
+KLEE: WARNING: undefined reference to function: pthread_cond_signal
+KLEE: WARNING: undefined reference to function: pthread_cond_wait
+KLEE: WARNING: undefined reference to function: pthread_create
+KLEE: WARNING: undefined reference to function: pthread_equal
+KLEE: WARNING: undefined reference to function: pthread_exit
+KLEE: WARNING: undefined reference to function: pthread_join
+KLEE: WARNING: undefined reference to function: pthread_mutex_destroy
+KLEE: WARNING: undefined reference to function: pthread_mutex_init
+KLEE: WARNING: undefined reference to function: pthread_mutex_lock
+KLEE: WARNING: undefined reference to function: pthread_mutex_unlock
+KLEE: WARNING: undefined reference to function: pthread_self
+KLEE: WARNING: undefined reference to function: pthread_sigmask
+KLEE: WARNING: undefined reference to function: removexattr
+KLEE: WARNING: undefined reference to function: setxattr
+KLEE: WARNING: undefined reference to function: truncate
+KLEE: WARNING: undefined reference to function: uncompress
+KLEE: WARNING ONCE: calling external: syscall(16, 0, 21505, 94125908419808) at /home/minjong/learch/klee/runtime/POSIX/fd.c:991 10
+KLEE: WARNING ONCE: external modified read-only object (originally terminated state)
+KLEE: WARNING ONCE: Alignment of memory from call "malloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: Alignment of memory from call "calloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: calling external: gettimeofday(94125914114992, 0) at /home/minjong/learch/klee/build/runtime/POSIX/home/minjong/learch/klee/runtime/POSIX/stubs.c:171 0
+KLEE: WARNING ONCE: external modified read-only object (originally terminated state)
+KLEE: WARNING ONCE: calling external: pthread_mutex_init(94125874515824, 0) at ../xorriso/base_obj.c:102 9
+KLEE: WARNING ONCE: external modified read-only object (originally terminated state)
+KLEE: WARNING ONCE: calling external: vprintf(94125656530592, 94125907684480) at libc/stdio/fprintf.c:35 14
+KLEE: WARNING ONCE: external modified read-only object (originally terminated state)
+KLEE: WARNING ONCE: calling external: pthread_mutex_lock(94125721842808) at ../libisofs/libiso_msgs.c:169 6
+KLEE: WARNING ONCE: external modified read-only object (originally terminated state)
+KLEE: WARNING ONCE: calling external: pthread_mutex_unlock(94125721847288) at ../libburn/libdax_msgs.c:180 6
+KLEE: WARNING ONCE: external modified read-only object (originally terminated state)
+KLEE: WARNING ONCE: calling external: getpid() at ../libburn/init.c:542 20
+KLEE: WARNING ONCE: external modified read-only object (originally terminated state)
+KLEE: WARNING ONCE: calling external: pthread_self() at ../libburn/init.c:543 23
+KLEE: WARNING ONCE: external modified read-only object (originally terminated state)
+KLEE: WARNING ONCE: sigaction: silently ignoring
+KLEE: WARNING ONCE: calling external: pthread_mutex_destroy(94125721847288) at ../libburn/libdax_msgs.c:209 44
+KLEE: WARNING ONCE: external modified read-only object (originally terminated state)

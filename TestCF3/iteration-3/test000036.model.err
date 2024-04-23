@@ -1,0 +1,21 @@
+Error: concretized symbolic size
+File: ../../gnu/xmalloc.c
+Line: 43
+assembly.ll line: 9053
+Stack: 
+	#000009053 in xmalloc () at ../../gnu/xmalloc.c:43
+	#100011956 in init_parse () at ../../src/parser.c:328
+	#200011946 in init () at ../../src/main.c:751
+	#300012032 in __klee_posix_wrapped_main (=4, =94736264586944) at ../../src/main.c:794
+	#400003373 in __user_main (=15, =94736131775040, =94736131775168) at /home/minjong/learch/klee/runtime/POSIX/klee_init_env.c:245
+	#500001058 in __uClibc_main (=15, =94736131775040) at libc/misc/internals/__uClibc_main.c:401
+	#600001224 in main (=15, =94736131775040)
+Info: 
+  size expr: (Mul w64 24
+                       (SExt w64 (Extract w32 0 (Add w64 (Mul w64 10
+                                                                  (ZExt w64 (Extract w8 0 (Add w32 4294967248
+                                                                                                   (SExt w32 (Read w8 0 arg02))))))
+                                                         (ZExt w64 (Extract w8 0 (Add w32 4294967248
+                                                                                          (SExt w32 (Read w8 1 arg02)))))))))
+  concretization : 120
+  unbound example: 240

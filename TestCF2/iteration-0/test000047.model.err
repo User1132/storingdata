@@ -1,0 +1,38 @@
+Error: concretized symbolic size
+File: ../../gnu/xmalloc.c
+Line: 43
+assembly.ll line: 9053
+Stack: 
+	#000009053 in xmalloc () at ../../gnu/xmalloc.c:43
+	#100025231 in set_level_indent (=94179732008693) at ../../src/main.c:463
+	#200024975 in parse_opt (=257, =94179732008693, =94179760288560) at ../../src/main.c:579
+	#300018003 in group_parse (=94179790067200, =94179760288560, =257, =94179732008693) at ../../gnu/argp-parse.c:236
+	#400022928 in parser_parse_opt (=94179760288448, =16777473) at ../../gnu/argp-parse.c:751
+	#500017669 in parser_parse_next (=94179760288448, =94179672840856) at ../../gnu/argp-parse.c:862
+	#600012593 in argp_parse (=3, =94179793165216, =94179675869272) at ../../gnu/argp-parse.c:930
+	#700012014 in __klee_posix_wrapped_main (=3, =94179793165216) at ../../src/main.c:788
+	#800003373 in __user_main (=15, =94179517323360, =94179517323488) at /home/minjong/learch/klee/runtime/POSIX/klee_init_env.c:245
+	#900001058 in __uClibc_main (=15, =94179517323360) at libc/misc/internals/__uClibc_main.c:401
+	#1000001224 in main (=15, =94179517323360)
+Info: 
+  size expr: (Add w64 1
+                       (Add w64 (Mul w64 10
+                                         (Add w64 (Mul w64 10
+                                                           (Add w64 (Mul w64 10
+                                                                             (Add w64 (Mul w64 10
+                                                                                               (ZExt w64 (Extract w8 0 (Add w32 4294967209
+                                                                                                                                (Or w32 (SExt w32 (Read w8 5 arg00))
+                                                                                                                                        32)))))
+                                                                                      (ZExt w64 (Extract w8 0 (Add w32 4294967209
+                                                                                                                       (Or w32 (SExt w32 (Read w8 6 arg00))
+                                                                                                                               32))))))
+                                                                    (ZExt w64 (Extract w8 0 (Add w32 4294967209
+                                                                                                     (Or w32 (SExt w32 (Read w8 7 arg00))
+                                                                                                             32))))))
+                                                  (ZExt w64 (Extract w8 0 (Add w32 4294967209
+                                                                                   (Or w32 (SExt w32 (Read w8 8 arg00))
+                                                                                           32))))))
+                                (ZExt w64 (Extract w8 0 (Add w32 4294967248
+                                                                 (SExt w32 (Read w8 9 arg00)))))))
+  concretization : 99991
+  unbound example: 99992

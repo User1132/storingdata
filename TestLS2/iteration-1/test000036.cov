@@ -1,0 +1,13 @@
+/home/minjong/klee-uclibc/libc/unistd/getopt.c:420
+libc/unistd/getopt.c:565
+libc/unistd/getopt.c:566
+libc/unistd/getopt.c:624
+libc/unistd/getopt.c:626
+libc/unistd/getopt.c:627
+libc/unistd/getopt.c:628
+libc/unistd/getopt.c:697
+libc/unistd/getopt.c:736
+libc/unistd/getopt.c:737
+libc/unistd/getopt.c:738
+libc/unistd/getopt.c:739
+libc/unistd/getopt.c:744

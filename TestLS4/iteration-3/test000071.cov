@@ -1,0 +1,6 @@
+/home/minjong/symtuner/benchmarks/coreutils-8.32/obj-llvm/../src/ls.c:3633
+/home/minjong/symtuner/benchmarks/coreutils-8.32/obj-llvm/../src/ls.c:3892
+../src/ls.c:3633
+../src/ls.c:3635
+../src/ls.c:3636
+../src/ls.c:3892

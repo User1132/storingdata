@@ -1,0 +1,10 @@
+../xorriso/xorriso_main.c:242
+/home/minjong/symtuner/benchmarks/xorriso-1.5.2/obj-llvm/../xorriso/parse_exec.c:2230
+../xorriso/parse_exec.c:2244
+../xorriso/parse_exec.c:2419
+../xorriso/parse_exec.c:2420
+../xorriso/parse_exec.c:2421
+../xorriso/parse_exec.c:2423
+../xorriso/parse_exec.c:2425
+../xorriso/parse_exec.c:2437
+../xorriso/parse_exec.c:2438

@@ -1,0 +1,10 @@
+KLEE: Using STP solver backend
+KLEE: WorkaroundLLVMPR39177: replaced alias @fputc with clone of function @__fputc_unlocked
+KLEE: WorkaroundLLVMPR39177: replaced alias @fputc_unlocked with clone of function @__fputc_unlocked
+KLEE: WorkaroundLLVMPR39177: replaced alias @fputs with clone of function @fputs_unlocked
+KLEE: WorkaroundLLVMPR39177: replaced alias @fwrite with clone of function @fwrite_unlocked
+KLEE: WorkaroundLLVMPR39177: replaced alias @fgetc_unlocked with clone of function @__fgetc_unlocked
+KLEE: Started: 2024-04-19 03:35:13
+KLEE: test000001.ktest: 2024-04-19 03:35:25
+KLEE: test000002.ktest: 2024-04-19 03:35:37
+KLEE: HaltTimer invoked

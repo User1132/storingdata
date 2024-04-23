@@ -1,0 +1,332 @@
+n_args0  : ARRAY BITVECTOR(32) OF BITVECTOR(8);
+n_args_11  : ARRAY BITVECTOR(32) OF BITVECTOR(8);
+A-data-stat2  : ARRAY BITVECTOR(32) OF BITVECTOR(8);
+stdin-stat3  : ARRAY BITVECTOR(32) OF BITVECTOR(8);
+model_version4  : ARRAY BITVECTOR(32) OF BITVECTOR(8);
+arg005  : ARRAY BITVECTOR(32) OF BITVECTOR(8);
+const_arr16  : ARRAY BITVECTOR(32) OF BITVECTOR(8);
+arg017  : ARRAY BITVECTOR(32) OF BITVECTOR(8);
+const_arr28  : ARRAY BITVECTOR(32) OF BITVECTOR(8);
+const_arr39  : ARRAY BITVECTOR(32) OF BITVECTOR(8);
+const_arr410  : ARRAY BITVECTOR(32) OF BITVECTOR(8);
+const_arr511  : ARRAY BITVECTOR(32) OF BITVECTOR(8);
+const_arr612  : ARRAY BITVECTOR(32) OF BITVECTOR(8);
+const_arr713  : ARRAY BITVECTOR(32) OF BITVECTOR(8);
+const_arr814  : ARRAY BITVECTOR(32) OF BITVECTOR(8);
+%----------------------------------------------------
+ASSERT( BVGT(0x00000002,(n_args0[0x00000003] @ (n_args0[0x00000002] @ (n_args0[0x00000001] @ n_args0[0x00000000]
+)
+)
+))
+ );
+ASSERT( ( NOT( SBVGT((n_args0[0x00000003] @ (n_args0[0x00000002] @ (n_args0[0x00000001] @ n_args0[0x00000000]
+)
+)
+),0x00000000)
+)) );
+ASSERT( BVGT(0x00000003,(n_args_11[0x00000003] @ (n_args_11[0x00000002] @ (n_args_11[0x00000001] @ n_args_11[0x00000000]
+)
+)
+))
+ );
+ASSERT( SBVGT((n_args_11[0x00000003] @ (n_args_11[0x00000002] @ (n_args_11[0x00000001] @ n_args_11[0x00000000]
+)
+)
+),0x00000000)
+ );
+ASSERT( ( NOT( ((((0x01 = n_args_11[0x00000000]
+) AND (0x00 = n_args_11[0x00000001]
+)
+) AND (0x00 = n_args_11[0x00000002]
+)
+) AND (0x00 = n_args_11[0x00000003]
+)
+))) );
+ASSERT( ( NOT( (0b0000000000000000000000000000000 = (A-data-stat2[0x0000000B] @ (A-data-stat2[0x0000000A] @ (A-data-stat2[0x00000009] @ A-data-stat2[0x00000008]
+)
+)
+)[30:0]
+))) );
+ASSERT( BVGT(0x0000000000010000,(A-data-stat2[0x0000003F] @ (A-data-stat2[0x0000003E] @ (A-data-stat2[0x0000003D] @ (A-data-stat2[0x0000003C] @ (A-data-stat2[0x0000003B] @ (A-data-stat2[0x0000003A] @ (A-data-stat2[0x00000039] @ A-data-stat2[0x00000038]
+)
+)
+)
+)
+)
+)
+))
+ );
+ASSERT( ( NOT( (0b0000000000000000000000000000000 = (stdin-stat3[0x0000000B] @ (stdin-stat3[0x0000000A] @ (stdin-stat3[0x00000009] @ stdin-stat3[0x00000008]
+)
+)
+)[30:0]
+))) );
+ASSERT( BVGT(0x0000000000010000,(stdin-stat3[0x0000003F] @ (stdin-stat3[0x0000003E] @ (stdin-stat3[0x0000003D] @ (stdin-stat3[0x0000003C] @ (stdin-stat3[0x0000003B] @ (stdin-stat3[0x0000003A] @ (stdin-stat3[0x00000039] @ stdin-stat3[0x00000038]
+)
+)
+)
+)
+)
+)
+))
+ );
+ASSERT( ((((0x01 = model_version4[0x00000000]
+) AND (0x00 = model_version4[0x00000001]
+)
+) AND (0x00 = model_version4[0x00000002]
+)
+) AND (0x00 = model_version4[0x00000003]
+)
+) );
+ASSERT( ( NOT( (0x2D = arg005[0x00000000]
+))) );
+ASSERT( ( NOT( (0x2D = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x00 = arg005[0x00000000]
+))) );
+ASSERT( (LET let_k_0 = arg005[0x00000000] IN 
+((0x5E = let_k_0
+) OR ((0x5B = let_k_0
+) OR ((0x60 = let_k_0
+) OR ((0x7C = let_k_0
+) OR ((0x26 = let_k_0
+) OR ((0x24 = let_k_0
+) OR ((0x22 = let_k_0
+) OR ((0x21 = let_k_0
+) OR ((0x2A = let_k_0
+) OR ((0x29 = let_k_0
+) OR ((0x28 = let_k_0
+) OR ((0x3E = let_k_0
+) OR ((0x3D = let_k_0
+) OR ((0x3C = let_k_0
+) OR (0x3B = let_k_0
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+))  );
+ASSERT( (0x00 = arg005[0x00000001]
+) );
+ASSERT( ( NOT( (0x2F = arg005[0x00000000]
+))) );
+ASSERT( ( NOT( (0x2F = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x00 = arg017[0x00000000]
+))) );
+ASSERT( (0x00 = arg017[0x00000001]
+) );
+ASSERT( ( NOT( (0x41 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x38 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x39 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x3A = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x3B = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x3C = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x3D = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x3E = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x3F = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x30 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x31 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x32 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x33 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x34 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x35 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x36 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x37 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x28 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x29 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x2A = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x2B = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x2C = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x2E = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x20 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x21 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x22 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x23 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x24 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x25 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x26 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x27 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x08 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x09 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x0A = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x0B = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x0C = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x0D = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x07 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x78 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x79 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x7A = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x7B = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x7C = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x7D = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x7E = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x70 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x71 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x72 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x73 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x74 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x75 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x76 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x77 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x68 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x69 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x6A = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x6B = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x6C = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x6D = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x6E = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x6F = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x60 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x61 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x62 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x63 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x64 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x65 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x66 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x67 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x58 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x59 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x5A = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x5B = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x5C = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x5D = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x5E = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x5F = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x50 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x51 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x52 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x53 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x54 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x55 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x56 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x57 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x48 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x49 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x4A = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x4B = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x4C = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x4D = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x4E = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x4F = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x42 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x43 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x44 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x45 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x46 = arg017[0x00000000]
+))) );
+ASSERT( ( NOT( (0x47 = arg017[0x00000000]
+))) );
+ASSERT( SBVGT(0x00000080,(0x000000 @ arg017[0x00000000]
+))
+ );
+ASSERT( ( NOT( (0b0 = arg017[0x00000000][0:0]
+))) );
+%----------------------------------------------------
+QUERY( FALSE  );

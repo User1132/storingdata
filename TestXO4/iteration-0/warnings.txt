@@ -1,0 +1,169 @@
+KLEE: WARNING ONCE: function "Wait_for_input" has inline asm
+KLEE: WARNING: undefined reference to function: BZ2_bzCompress
+KLEE: WARNING: undefined reference to function: BZ2_bzCompressEnd
+KLEE: WARNING: undefined reference to function: BZ2_bzCompressInit
+KLEE: WARNING: undefined reference to function: __isoc99_sscanf
+KLEE: WARNING: undefined reference to function: alarm
+KLEE: WARNING: undefined reference to function: compress2
+KLEE: WARNING: undefined reference to function: compressBound
+KLEE: WARNING: undefined reference to function: deflate
+KLEE: WARNING: undefined reference to function: deflateEnd
+KLEE: WARNING: undefined reference to function: deflateInit2_
+KLEE: WARNING: undefined reference to function: deflateInit_
+KLEE: WARNING: undefined reference to function: getxattr
+KLEE: WARNING: undefined reference to function: inflate
+KLEE: WARNING: undefined reference to function: inflateEnd
+KLEE: WARNING: undefined reference to function: inflateInit2_
+KLEE: WARNING: undefined reference to function: lgetxattr
+KLEE: WARNING: undefined reference to function: listxattr
+KLEE: WARNING: undefined reference to function: llistxattr
+KLEE: WARNING: undefined reference to function: lremovexattr
+KLEE: WARNING: undefined reference to function: lsetxattr
+KLEE: WARNING: undefined reference to function: pthread_attr_init
+KLEE: WARNING: undefined reference to function: pthread_attr_setdetachstate
+KLEE: WARNING: undefined reference to function: pthread_cancel
+KLEE: WARNING: undefined reference to function: pthread_cond_destroy
+KLEE: WARNING: undefined reference to function: pthread_cond_init
+KLEE: WARNING: undefined reference to function: pthread_cond_signal
+KLEE: WARNING: undefined reference to function: pthread_cond_wait
+KLEE: WARNING: undefined reference to function: pthread_create
+KLEE: WARNING: undefined reference to function: pthread_equal
+KLEE: WARNING: undefined reference to function: pthread_exit
+KLEE: WARNING: undefined reference to function: pthread_join
+KLEE: WARNING: undefined reference to function: pthread_mutex_destroy
+KLEE: WARNING: undefined reference to function: pthread_mutex_init
+KLEE: WARNING: undefined reference to function: pthread_mutex_lock
+KLEE: WARNING: undefined reference to function: pthread_mutex_unlock
+KLEE: WARNING: undefined reference to function: pthread_self
+KLEE: WARNING: undefined reference to function: pthread_sigmask
+KLEE: WARNING: undefined reference to function: removexattr
+KLEE: WARNING: undefined reference to function: setxattr
+KLEE: WARNING: undefined reference to function: truncate
+KLEE: WARNING: undefined reference to function: uncompress
+KLEE: WARNING ONCE: calling external: syscall(16, 0, 21505, 94794982116352) at /home/minjong/learch/klee/runtime/POSIX/fd.c:991 10
+KLEE: WARNING ONCE: external modified read-only object (originally terminated state)
+KLEE: WARNING ONCE: Alignment of memory from call "malloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: calling external: vprintf(94794735209760, 94794981383648) at libc/stdio/fprintf.c:35 14
+KLEE: WARNING ONCE: external modified read-only object (originally terminated state)
+KLEE: WARNING ONCE: Alignment of memory from call "calloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: calling external: gettimeofday(94794987401056, 0) at /home/minjong/learch/klee/build/runtime/POSIX/home/minjong/learch/klee/runtime/POSIX/stubs.c:171 0
+KLEE: WARNING ONCE: external modified read-only object (originally terminated state)
+KLEE: WARNING ONCE: calling external: pthread_mutex_init(94794947981168, 0) at ../xorriso/base_obj.c:102 9
+KLEE: WARNING ONCE: external modified read-only object (originally terminated state)
+KLEE: WARNING ONCE: calling external: pthread_mutex_lock(94794673084152) at ../libisofs/libiso_msgs.c:169 6
+KLEE: WARNING ONCE: external modified read-only object (originally terminated state)
+KLEE: WARNING ONCE: calling external: pthread_mutex_unlock(94794673079032) at ../libburn/libdax_msgs.c:180 6
+KLEE: WARNING ONCE: external modified read-only object (originally terminated state)
+KLEE: WARNING ONCE: calling external: getpid() at ../libburn/init.c:542 20
+KLEE: WARNING ONCE: external modified read-only object (originally terminated state)
+KLEE: WARNING ONCE: calling external: pthread_self() at ../libburn/init.c:543 23
+KLEE: WARNING ONCE: external modified read-only object (originally terminated state)
+KLEE: WARNING ONCE: sigaction: silently ignoring
+KLEE: WARNING ONCE: calling external: pthread_mutex_destroy(94794673079032) at ../libburn/libdax_msgs.c:209 44
+KLEE: WARNING ONCE: external modified read-only object (originally terminated state)
+KLEE: WARNING ONCE: calling external: printf(94794909130936, 94794988712624) at ../xorriso/text_io.c:1036 8
+KLEE: WARNING ONCE: external modified read-only object (originally terminated state)
+KLEE: WARNING: killing 335 states out of 11849 (over memory cap)
+KLEE: WARNING: killing 292 states out of 11665 (over memory cap)
+KLEE: WARNING: killing 278 states out of 11536 (over memory cap)
+KLEE: WARNING: killing 274 states out of 11373 (over memory cap)
+KLEE: WARNING: killing 270 states out of 11205 (over memory cap)
+KLEE: WARNING: killing 283 states out of 11107 (over memory cap)
+KLEE: WARNING ONCE: calling external: uname(94797591183360) at ../libburn/sg-linux.c:299 18
+KLEE: WARNING ONCE: external modified read-only object (originally terminated state)
+KLEE: WARNING ONCE: calling external: geteuid() at ../libisoburn/isoburn.c:865 5
+KLEE: WARNING ONCE: external modified read-only object (originally terminated state)
+KLEE: WARNING ONCE: calling external: getegid() at ../libisoburn/isoburn.c:866 5
+KLEE: WARNING ONCE: external modified read-only object (originally terminated state)
+KLEE: WARNING: killing 275 states out of 10980 (over memory cap)
+KLEE: WARNING: killing 262 states out of 10882 (over memory cap)
+KLEE: WARNING: killing 288 states out of 10800 (over memory cap)
+KLEE: WARNING: killing 273 states out of 10686 (over memory cap)
+KLEE: WARNING: killing 260 states out of 10579 (over memory cap)
+KLEE: WARNING: killing 255 states out of 10483 (over memory cap)
+KLEE: WARNING: killing 251 states out of 10409 (over memory cap)
+KLEE: WARNING: killing 250 states out of 10382 (over memory cap)
+KLEE: WARNING: killing 249 states out of 10342 (over memory cap)
+KLEE: WARNING: killing 250 states out of 10287 (over memory cap)
+KLEE: WARNING: killing 249 states out of 10244 (over memory cap)
+KLEE: WARNING: killing 250 states out of 10188 (over memory cap)
+KLEE: WARNING: killing 245 states out of 10169 (over memory cap)
+KLEE: WARNING: killing 248 states out of 10198 (over memory cap)
+KLEE: WARNING: killing 248 states out of 10176 (over memory cap)
+KLEE: WARNING: killing 251 states out of 10216 (over memory cap)
+KLEE: WARNING: killing 246 states out of 10222 (over memory cap)
+KLEE: WARNING: killing 246 states out of 10211 (over memory cap)
+KLEE: WARNING: killing 245 states out of 10165 (over memory cap)
+KLEE: WARNING: killing 241 states out of 10004 (over memory cap)
+KLEE: WARNING: killing 242 states out of 9951 (over memory cap)
+KLEE: WARNING: killing 239 states out of 9919 (over memory cap)
+KLEE: WARNING: killing 243 states out of 9891 (over memory cap)
+KLEE: WARNING: killing 242 states out of 9834 (over memory cap)
+KLEE: WARNING: killing 240 states out of 9773 (over memory cap)
+KLEE: WARNING: killing 241 states out of 9727 (over memory cap)
+KLEE: WARNING: killing 236 states out of 9678 (over memory cap)
+KLEE: WARNING: killing 233 states out of 9643 (over memory cap)
+KLEE: WARNING: killing 235 states out of 9636 (over memory cap)
+KLEE: WARNING: killing 232 states out of 9611 (over memory cap)
+KLEE: WARNING: killing 232 states out of 9613 (over memory cap)
+KLEE: WARNING: killing 237 states out of 9637 (over memory cap)
+KLEE: WARNING: killing 235 states out of 9646 (over memory cap)
+KLEE: WARNING: killing 237 states out of 9658 (over memory cap)
+KLEE: WARNING: killing 233 states out of 9678 (over memory cap)
+KLEE: WARNING: killing 234 states out of 9704 (over memory cap)
+KLEE: WARNING: killing 234 states out of 9719 (over memory cap)
+KLEE: WARNING: killing 235 states out of 9726 (over memory cap)
+KLEE: WARNING: killing 234 states out of 9715 (over memory cap)
+KLEE: WARNING: killing 236 states out of 9711 (over memory cap)
+KLEE: WARNING: killing 234 states out of 9702 (over memory cap)
+KLEE: WARNING: killing 234 states out of 9695 (over memory cap)
+KLEE: WARNING: killing 238 states out of 9670 (over memory cap)
+KLEE: WARNING: killing 236 states out of 9673 (over memory cap)
+KLEE: WARNING: killing 233 states out of 9678 (over memory cap)
+KLEE: WARNING: killing 233 states out of 9647 (over memory cap)
+KLEE: WARNING: killing 235 states out of 9659 (over memory cap)
+KLEE: WARNING: killing 233 states out of 9650 (over memory cap)
+KLEE: WARNING ONCE: calling external: __isoc99_sscanf(94795459592096, 94794909950808, 94795274035048) at ../xorriso/opts_p_z.c:1383 14
+KLEE: WARNING ONCE: external modified read-only object (originally terminated state)
+KLEE: WARNING: killing 233 states out of 9660 (over memory cap)
+KLEE: WARNING: killing 232 states out of 9635 (over memory cap)
+KLEE: WARNING: killing 232 states out of 9629 (over memory cap)
+KLEE: WARNING: killing 232 states out of 9619 (over memory cap)
+KLEE: WARNING: killing 231 states out of 9598 (over memory cap)
+KLEE: WARNING: killing 232 states out of 9607 (over memory cap)
+KLEE: WARNING: killing 243 states out of 9967 (over memory cap)
+KLEE: WARNING: killing 242 states out of 9941 (over memory cap)
+KLEE: WARNING: killing 241 states out of 9905 (over memory cap)
+KLEE: WARNING: killing 239 states out of 9895 (over memory cap)
+KLEE: WARNING: killing 238 states out of 9863 (over memory cap)
+KLEE: WARNING: killing 237 states out of 9837 (over memory cap)
+KLEE: WARNING: killing 237 states out of 9817 (over memory cap)
+KLEE: WARNING: killing 236 states out of 9786 (over memory cap)
+KLEE: WARNING: killing 236 states out of 9769 (over memory cap)
+KLEE: WARNING: killing 237 states out of 9749 (over memory cap)
+KLEE: WARNING: killing 242 states out of 9735 (over memory cap)
+KLEE: WARNING: killing 243 states out of 9706 (over memory cap)
+KLEE: WARNING: killing 233 states out of 9676 (over memory cap)
+KLEE: WARNING: killing 235 states out of 9648 (over memory cap)
+KLEE: WARNING: killing 234 states out of 9620 (over memory cap)
+KLEE: WARNING: killing 234 states out of 9594 (over memory cap)
+KLEE: WARNING: killing 231 states out of 9571 (over memory cap)
+KLEE: WARNING: killing 232 states out of 9538 (over memory cap)
+KLEE: WARNING: killing 229 states out of 9506 (over memory cap)
+KLEE: WARNING: killing 235 states out of 9481 (over memory cap)
+KLEE: WARNING: killing 228 states out of 9448 (over memory cap)
+KLEE: WARNING: killing 227 states out of 9421 (over memory cap)
+KLEE: WARNING: killing 227 states out of 9406 (over memory cap)
+KLEE: WARNING: killing 228 states out of 9379 (over memory cap)
+KLEE: WARNING: killing 226 states out of 9360 (over memory cap)
+KLEE: WARNING: killing 225 states out of 9337 (over memory cap)
+KLEE: WARNING: killing 227 states out of 9323 (over memory cap)
+KLEE: WARNING: killing 227 states out of 9306 (over memory cap)
+KLEE: WARNING: killing 226 states out of 9289 (over memory cap)
+KLEE: WARNING: killing 226 states out of 9265 (over memory cap)
+KLEE: WARNING: killing 223 states out of 9237 (over memory cap)
+KLEE: WARNING: killing 224 states out of 9209 (over memory cap)
+KLEE: WARNING: killing 222 states out of 9187 (over memory cap)
+KLEE: WARNING: killing 223 states out of 9159 (over memory cap)
+KLEE: WARNING: killing 221 states out of 9150 (over memory cap)
+KLEE: WARNING: killing 220 states out of 9115 (over memory cap)

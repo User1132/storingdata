@@ -1,0 +1,78 @@
+KLEE: Using STP solver backend
+KLEE: WorkaroundLLVMPR39177: replaced alias @fputc with clone of function @__fputc_unlocked
+KLEE: WorkaroundLLVMPR39177: replaced alias @fputc_unlocked with clone of function @__fputc_unlocked
+KLEE: WorkaroundLLVMPR39177: replaced alias @fputs with clone of function @fputs_unlocked
+KLEE: WorkaroundLLVMPR39177: replaced alias @fwrite with clone of function @fwrite_unlocked
+KLEE: WorkaroundLLVMPR39177: replaced alias @fgetc_unlocked with clone of function @__fgetc_unlocked
+KLEE: Started: 2024-04-17 19:02:38
+KLEE: test000001.ktest: 2024-04-17 19:02:41
+KLEE: test000002.ktest: 2024-04-17 19:02:42
+KLEE: test000003.ktest: 2024-04-17 19:02:42
+KLEE: test000004.ktest: 2024-04-17 19:02:42
+KLEE: test000005.ktest: 2024-04-17 19:02:42
+KLEE: test000006.ktest: 2024-04-17 19:02:42
+KLEE: test000007.ktest: 2024-04-17 19:02:42
+KLEE: test000008.ktest: 2024-04-17 19:02:43
+KLEE: test000009.ktest: 2024-04-17 19:02:43
+KLEE: test000010.ktest: 2024-04-17 19:02:43
+KLEE: test000011.ktest: 2024-04-17 19:02:43
+KLEE: test000012.ktest: 2024-04-17 19:02:44
+KLEE: test000013.ktest: 2024-04-17 19:02:45
+KLEE: test000014.ktest: 2024-04-17 19:02:45
+KLEE: test000015.ktest: 2024-04-17 19:02:45
+KLEE: test000016.ktest: 2024-04-17 19:02:45
+KLEE: test000017.ktest: 2024-04-17 19:02:47
+KLEE: test000018.ktest: 2024-04-17 19:02:47
+KLEE: test000019.ktest: 2024-04-17 19:02:47
+KLEE: test000020.ktest: 2024-04-17 19:02:48
+KLEE: test000021.ktest: 2024-04-17 19:02:52
+KLEE: test000022.ktest: 2024-04-17 19:02:53
+KLEE: test000023.ktest: 2024-04-17 19:02:53
+KLEE: test000024.ktest: 2024-04-17 19:02:57
+KLEE: test000025.ktest: 2024-04-17 19:03:20
+KLEE: test000026.ktest: 2024-04-17 19:03:33
+KLEE: test000027.ktest: 2024-04-17 19:03:55
+KLEE: test000028.ktest: 2024-04-17 19:04:59
+KLEE: test000029.ktest: 2024-04-17 19:05:00
+KLEE: test000030.ktest: 2024-04-17 19:05:08
+KLEE: test000031.ktest: 2024-04-17 19:05:11
+KLEE: test000032.ktest: 2024-04-17 19:07:33
+KLEE: test000033.ktest: 2024-04-17 19:07:35
+KLEE: test000034.ktest: 2024-04-17 19:07:48
+KLEE: test000035.ktest: 2024-04-17 19:07:48
+KLEE: test000036.ktest: 2024-04-17 19:07:51
+KLEE: test000037.ktest: 2024-04-17 19:07:52
+KLEE: test000038.ktest: 2024-04-17 19:07:53
+KLEE: test000039.ktest: 2024-04-17 19:07:55
+KLEE: test000040.ktest: 2024-04-17 19:07:58
+KLEE: test000041.ktest: 2024-04-17 19:07:59
+KLEE: test000042.ktest: 2024-04-17 19:08:00
+KLEE: test000043.ktest: 2024-04-17 19:08:02
+KLEE: test000044.ktest: 2024-04-17 19:08:08
+KLEE: test000045.ktest: 2024-04-17 19:08:10
+KLEE: ERROR: ../../src/main.c:236: memory error: out of bound pointer
+KLEE: NOTE: now ignoring this error at this location
+KLEE: test000046.ktest: 2024-04-17 19:08:10
+KLEE: ERROR: ../../gnu/xmalloc.c:43: concretized symbolic size
+KLEE: NOTE: now ignoring this error at this location
+KLEE: test000047.ktest: 2024-04-17 19:08:12
+KLEE: test000048.ktest: 2024-04-17 21:11:54
+KLEE: test000049.ktest: 2024-04-17 21:12:02
+KLEE: test000050.ktest: 2024-04-17 21:26:01
+KLEE: test000051.ktest: 2024-04-17 21:26:03
+KLEE: test000052.ktest: 2024-04-17 21:28:13
+KLEE: test000053.ktest: 2024-04-17 21:28:51
+KLEE: test000054.ktest: 2024-04-17 21:28:53
+KLEE: test000055.ktest: 2024-04-17 21:29:40
+KLEE: test000056.ktest: 2024-04-17 21:30:44
+KLEE: test000057.ktest: 2024-04-17 21:30:49
+KLEE: ERROR: libc/string/strlen.c:22: memory error: out of bound pointer
+KLEE: NOTE: now ignoring this error at this location
+KLEE: test000058.ktest: 2024-04-17 21:30:50
+KLEE: test000059.ktest: 2024-04-17 21:30:56
+KLEE: test000060.ktest: 2024-04-17 21:30:56
+KLEE: test000061.ktest: 2024-04-17 21:31:05
+KLEE: test000062.ktest: 2024-04-17 21:31:16
+KLEE: test000063.ktest: 2024-04-17 21:31:44
+KLEE: test000064.ktest: 2024-04-17 21:31:44
+KLEE: HaltTimer invoked

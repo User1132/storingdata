@@ -1,0 +1,12 @@
+/home/minjong/symtuner/benchmarks/coreutils-8.32/obj-llvm/../lib/filevercmp.c:125
+../lib/filevercmp.c:125
+../lib/filevercmp.c:134
+../lib/filevercmp.c:135
+../lib/filevercmp.c:181
+/home/minjong/symtuner/benchmarks/coreutils-8.32/obj-llvm/../src/ls.c:3910
+../src/ls.c:1867
+../src/ls.c:2068
+../src/ls.c:2070
+../src/ls.c:3907
+../src/ls.c:3910
+../src/ls.c:3911

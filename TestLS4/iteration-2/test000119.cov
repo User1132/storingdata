@@ -1,0 +1,16 @@
+../src/ls.c:2116
+../src/ls.c:2117
+../src/ls.c:3084
+../src/ls.c:3086
+../src/ls.c:3088
+../src/ls.c:3089
+../src/ls.c:3091
+../src/ls.c:3092
+../src/ls.c:3093
+/home/minjong/klee-uclibc/libc/unistd/getopt.c:420
+libc/unistd/getopt.c:1087
+libc/unistd/getopt.c:1102
+libc/unistd/getopt.c:1109
+libc/unistd/getopt.c:1148
+libc/unistd/getopt.c:1149
+libc/unistd/getopt.c:1151

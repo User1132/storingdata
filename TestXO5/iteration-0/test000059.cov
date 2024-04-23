@@ -1,0 +1,9 @@
+/home/minjong/learch/klee/runtime/POSIX/fd.c:1368
+/home/minjong/learch/klee/runtime/POSIX/fd.c:1369
+libc/stdio/_fopen.c:60
+libc/stdio/_fopen.c:61
+libc/stdio/_fopen.c:62
+libc/stdio/_fopen.c:148
+../xorriso/opts_i_o.c:340
+../xorriso/opts_i_o.c:341
+../xorriso/opts_i_o.c:342

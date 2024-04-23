@@ -1,0 +1,16 @@
+../xorriso/parse_exec.c:954
+../xorriso/parse_exec.c:1410
+../xorriso/parse_exec.c:1411
+../xorriso/parse_exec.c:1413
+/home/minjong/symtuner/benchmarks/xorriso-1.5.2/obj-llvm/../xorriso/drive_mgt.c:718
+../xorriso/drive_mgt.c:302
+../xorriso/drive_mgt.c:313
+../xorriso/drive_mgt.c:720
+../xorriso/drive_mgt.c:721
+../xorriso/drive_mgt.c:722
+../xorriso/drive_mgt.c:739
+../xorriso/drive_mgt.c:740
+../xorriso/drive_mgt.c:746
+../xorriso/drive_mgt.c:747
+../xorriso/drive_mgt.c:748
+../xorriso/drive_mgt.c:749

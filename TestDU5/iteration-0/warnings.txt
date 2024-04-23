@@ -1,0 +1,67 @@
+KLEE: WARNING: undefined reference to function: __ctype_get_mb_cur_max
+KLEE: WARNING: undefined reference to function: fdopendir
+KLEE: WARNING: executable has module level assembly (ignoring)
+KLEE: WARNING ONCE: calling external: syscall(16, 0, 21505, 94271049087264) at /home/minjong/learch/klee/runtime/POSIX/fd.c:991 10
+KLEE: WARNING ONCE: external modified read-only object (originally terminated state)
+KLEE: WARNING ONCE: Alignment of memory from call "malloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: Alignment of memory from call "realloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: Alignment of memory from call "calloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: calling external: printf(94270951061416, 94271048278016, 10) at ../src/du.c:422 3
+KLEE: WARNING ONCE: external modified read-only object (originally terminated state)
+KLEE: WARNING ONCE: calling close_stdout with extra arguments.
+KLEE: WARNING ONCE: calling external: __ctype_get_mb_cur_max() at ../lib/quotearg.c:269 36
+KLEE: WARNING ONCE: external modified read-only object (originally terminated state)
+KLEE: WARNING ONCE: calling external: vprintf(94270951062872, 94271056089440) at libc/stdio/fprintf.c:35 14
+KLEE: WARNING ONCE: external modified read-only object (originally terminated state)
+KLEE: WARNING ONCE: flushing 255904 bytes on read, may be slow and/or crash: MO371[255904] allocated at global:locale_mmap
+KLEE: WARNING ONCE: calling external: fdopendir(3) at ../lib/opendirat.c:44 8
+KLEE: WARNING ONCE: external modified read-only object (originally terminated state)
+KLEE: WARNING: killing 669 states out of 27513 (over memory cap)
+KLEE: WARNING: killing 668 states out of 27483 (over memory cap)
+KLEE: WARNING: killing 700 states out of 27476 (over memory cap)
+KLEE: WARNING: killing 679 states out of 27409 (over memory cap)
+KLEE: WARNING: killing 659 states out of 27345 (over memory cap)
+KLEE: WARNING: killing 671 states out of 27319 (over memory cap)
+KLEE: WARNING: killing 677 states out of 27303 (over memory cap)
+KLEE: WARNING: killing 670 states out of 27277 (over memory cap)
+KLEE: WARNING: killing 682 states out of 27277 (over memory cap)
+KLEE: WARNING: killing 662 states out of 27223 (over memory cap)
+KLEE: WARNING: killing 661 states out of 27191 (over memory cap)
+KLEE: WARNING: killing 660 states out of 27160 (over memory cap)
+KLEE: WARNING: killing 686 states out of 27160 (over memory cap)
+KLEE: WARNING: killing 658 states out of 27075 (over memory cap)
+KLEE: WARNING: killing 657 states out of 27025 (over memory cap)
+KLEE: WARNING: killing 669 states out of 26997 (over memory cap)
+KLEE: WARNING: killing 655 states out of 26931 (over memory cap)
+KLEE: WARNING: killing 667 states out of 26905 (over memory cap)
+KLEE: WARNING: killing 647 states out of 26853 (over memory cap)
+KLEE: WARNING: killing 659 states out of 26833 (over memory cap)
+KLEE: WARNING: killing 658 states out of 26797 (over memory cap)
+KLEE: WARNING: killing 657 states out of 26747 (over memory cap)
+KLEE: WARNING: killing 649 states out of 26700 (over memory cap)
+KLEE: WARNING: killing 661 states out of 26680 (over memory cap)
+KLEE: WARNING: killing 666 states out of 26646 (over memory cap)
+KLEE: WARNING: killing 640 states out of 26578 (over memory cap)
+KLEE: WARNING: killing 639 states out of 26551 (over memory cap)
+KLEE: WARNING: killing 657 states out of 26518 (over memory cap)
+KLEE: WARNING: killing 656 states out of 26486 (over memory cap)
+KLEE: WARNING: killing 668 states out of 26456 (over memory cap)
+KLEE: WARNING: killing 649 states out of 26423 (over memory cap)
+KLEE: WARNING: killing 654 states out of 26404 (over memory cap)
+KLEE: WARNING: killing 634 states out of 26344 (over memory cap)
+KLEE: WARNING: killing 665 states out of 26337 (over memory cap)
+KLEE: WARNING: killing 633 states out of 26263 (over memory cap)
+KLEE: WARNING: killing 663 states out of 26272 (over memory cap)
+KLEE: WARNING: killing 673 states out of 26161 (over memory cap)
+KLEE: WARNING: killing 688 states out of 26051 (over memory cap)
+KLEE: WARNING: killing 648 states out of 25894 (over memory cap)
+KLEE: WARNING: killing 664 states out of 25830 (over memory cap)
+KLEE: WARNING: killing 675 states out of 25779 (over memory cap)
+KLEE: WARNING: killing 642 states out of 25663 (over memory cap)
+KLEE: WARNING: killing 622 states out of 25587 (over memory cap)
+KLEE: WARNING: killing 639 states out of 25540 (over memory cap)
+KLEE: WARNING: killing 614 states out of 25473 (over memory cap)
+KLEE: WARNING: killing 782 states out of 25589 (over memory cap)
+KLEE: WARNING: killing 682 states out of 25381 (over memory cap)
+KLEE: WARNING: killing 637 states out of 25221 (over memory cap)
+KLEE: WARNING: killing 616 states out of 25105 (over memory cap)

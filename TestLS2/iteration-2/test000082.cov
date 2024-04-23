@@ -1,0 +1,10 @@
+/home/minjong/symtuner/benchmarks/coreutils-8.32/obj-llvm/../src/ls.c:3842
+../src/ls.c:2064
+../src/ls.c:2065
+../src/ls.c:3842
+../src/ls.c:3843
+../src/ls.c:3845
+../src/ls.c:3846
+../src/ls.c:3847
+../src/ls.c:3889
+../lib/stat-time.h:121

@@ -1,0 +1,17 @@
+libc/stdlib/stdlib.c:540
+libc/stdlib/stdlib.c:541
+libc/stdlib/stdlib.c:542
+libc/stdlib/stdlib.c:546
+/home/minjong/symtuner/benchmarks/coreutils-8.32/obj-llvm/../src/ls.c:5132
+../src/ls.c:4050
+../src/ls.c:5132
+../src/ls.c:5134
+../src/ls.c:5135
+../src/ls.c:5137
+../src/ls.c:5139
+../src/ls.c:5140
+../src/ls.c:5142
+../src/ls.c:5163
+../src/ls.c:5164
+../src/ls.c:5166
+../src/ls.c:5167

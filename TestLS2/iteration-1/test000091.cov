@@ -1,0 +1,7 @@
+../src/ls.c:2074
+../lib/quotearg.c:1063
+../lib/quotearg.c:1075
+../lib/quotearg.c:1081
+libc/misc/error/error.c:65
+libc/stdlib/stdlib.c:561
+libc/stdlib/stdlib.c:562

@@ -1,0 +1,21 @@
+Error: memory error: out of bound pointer
+File: libc/string/strnlen.c
+Line: 30
+assembly.ll line: 330806
+Stack: 
+	#000330806 in strnlen (=94789249552620, =18446744073709551615) at libc/string/strnlen.c:30
+	#100325196 in _do_one_spec (=94796479160064, =94796741039360, =94796692707832) at libc/stdio/_vfprintf.c:1679
+	#200324449 in vfprintf (=94796479160064, =94794908804176, =94796601141216) at libc/stdio/_vfprintf.c:1919
+	#300318484 in vsnprintf (=94795119620796, =18446744073709551615, =94794908804176, =94796601141216) at libc/stdio/vsnprintf.c:64
+	#400318406 in sprintf (=94795119620796, =94794908804176) at libc/stdio/sprintf.c:24
+	#500082048 in Ftimetxt (=12370169555311111083, =94795119620796, =6) at ../xorriso/misc_funct.c:706
+	#600237853 in Xorriso_option_sleep (=94795119443968, =94795459592096) at ../xorriso/opts_p_z.c:1385
+	#700031525 in Xorriso_interpreter (=94795119443968, =4, =94795933663328, =94795117380888, =2) at ../xorriso/parse_exec.c:1819
+	#800026171 in __klee_posix_wrapped_main (=4, =94795056257408) at ../xorriso/xorriso_main.c:265
+	#900009534 in __user_main (=15, =94794690349888, =94794690350016) at /home/minjong/learch/klee/runtime/POSIX/klee_init_env.c:245
+	#1000006122 in __uClibc_main (=15, =94794690349888) at libc/misc/internals/__uClibc_main.c:401
+	#1100006288 in main (=15, =94794690349888)
+Info: 
+	address: 94789249552620
+	next: object at 22420222532288 of size 1536
+		MO30[1536] (no allocation info)

@@ -1,0 +1,16 @@
+/home/minjong/symtuner/benchmarks/coreutils-8.32/obj-llvm/../src/ls.c:4449
+../src/ls.c:4454
+../src/ls.c:4455
+../src/ls.c:4493
+../src/ls.c:4495
+../src/ls.c:4496
+../src/ls.c:4497
+../src/ls.c:4500
+../src/ls.c:4501
+../src/ls.c:4524
+../src/ls.c:4525
+../src/ls.c:4526
+../src/ls.c:4592
+../src/ls.c:4593
+../lib/quotearg.c:270
+../lib/quotearg.c:394

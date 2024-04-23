@@ -1,0 +1,97 @@
+KLEE: Using STP solver backend
+KLEE: WorkaroundLLVMPR39177: replaced alias @putchar with clone of function @putchar_unlocked
+KLEE: WorkaroundLLVMPR39177: replaced alias @fputc with clone of function @__fputc_unlocked
+KLEE: WorkaroundLLVMPR39177: replaced alias @fputc_unlocked with clone of function @__fputc_unlocked
+KLEE: WorkaroundLLVMPR39177: replaced alias @fputs with clone of function @fputs_unlocked
+KLEE: WorkaroundLLVMPR39177: replaced alias @fwrite with clone of function @fwrite_unlocked
+KLEE: WorkaroundLLVMPR39177: replaced alias @fgetc_unlocked with clone of function @__fgetc_unlocked
+KLEE: Started: 2024-04-18 20:39:40
+KLEE: test000001.ktest: 2024-04-18 20:39:51
+KLEE: test000002.ktest: 2024-04-18 20:39:51
+KLEE: test000003.ktest: 2024-04-18 20:39:51
+KLEE: test000004.ktest: 2024-04-18 20:39:51
+KLEE: test000005.ktest: 2024-04-18 20:39:56
+KLEE: test000006.ktest: 2024-04-18 20:39:59
+KLEE: test000007.ktest: 2024-04-18 20:40:06
+KLEE: test000008.ktest: 2024-04-18 20:40:06
+KLEE: test000009.ktest: 2024-04-18 20:40:07
+KLEE: test000010.ktest: 2024-04-18 20:40:14
+KLEE: test000011.ktest: 2024-04-18 20:41:20
+KLEE: test000012.ktest: 2024-04-18 20:41:35
+KLEE: test000013.ktest: 2024-04-18 20:41:45
+KLEE: test000014.ktest: 2024-04-18 20:41:45
+KLEE: test000015.ktest: 2024-04-18 20:41:45
+KLEE: test000016.ktest: 2024-04-18 20:41:47
+KLEE: test000017.ktest: 2024-04-18 20:41:54
+KLEE: test000018.ktest: 2024-04-18 20:42:15
+KLEE: test000019.ktest: 2024-04-18 20:42:25
+KLEE: test000020.ktest: 2024-04-18 20:42:45
+KLEE: test000021.ktest: 2024-04-18 20:42:47
+KLEE: test000022.ktest: 2024-04-18 20:42:50
+KLEE: test000023.ktest: 2024-04-18 20:42:51
+KLEE: test000024.ktest: 2024-04-18 20:43:20
+KLEE: test000025.ktest: 2024-04-18 20:43:40
+KLEE: test000026.ktest: 2024-04-18 20:44:29
+KLEE: test000027.ktest: 2024-04-18 20:44:31
+KLEE: test000028.ktest: 2024-04-18 20:44:38
+KLEE: test000029.ktest: 2024-04-18 20:44:57
+KLEE: test000030.ktest: 2024-04-18 20:44:58
+KLEE: test000031.ktest: 2024-04-18 20:45:25
+KLEE: test000032.ktest: 2024-04-18 20:45:45
+KLEE: ERROR: libc/misc/dirent/opendir.c:74: concretized symbolic size
+KLEE: NOTE: now ignoring this error at this location
+KLEE: test000033.ktest: 2024-04-18 20:46:01
+KLEE: test000034.ktest: 2024-04-18 20:46:04
+KLEE: test000035.ktest: 2024-04-18 20:46:09
+KLEE: test000036.ktest: 2024-04-18 20:46:49
+KLEE: test000037.ktest: 2024-04-18 20:47:29
+KLEE: test000038.ktest: 2024-04-18 20:47:53
+KLEE: test000039.ktest: 2024-04-18 20:48:27
+KLEE: test000040.ktest: 2024-04-18 20:48:41
+KLEE: test000041.ktest: 2024-04-18 20:48:47
+KLEE: test000042.ktest: 2024-04-18 20:48:48
+KLEE: test000043.ktest: 2024-04-18 20:49:03
+KLEE: test000044.ktest: 2024-04-18 20:50:10
+KLEE: test000045.ktest: 2024-04-18 20:50:10
+KLEE: test000046.ktest: 2024-04-18 20:53:56
+KLEE: test000047.ktest: 2024-04-18 20:53:56
+KLEE: test000048.ktest: 2024-04-18 20:53:56
+KLEE: test000049.ktest: 2024-04-18 20:53:56
+KLEE: test000050.ktest: 2024-04-18 20:53:56
+KLEE: test000051.ktest: 2024-04-18 20:53:56
+KLEE: test000052.ktest: 2024-04-18 20:54:03
+KLEE: test000053.ktest: 2024-04-18 20:54:03
+KLEE: test000054.ktest: 2024-04-18 20:54:14
+KLEE: test000055.ktest: 2024-04-18 20:54:14
+KLEE: test000056.ktest: 2024-04-18 20:54:15
+KLEE: test000057.ktest: 2024-04-18 20:54:31
+KLEE: test000058.ktest: 2024-04-18 20:54:33
+KLEE: test000059.ktest: 2024-04-18 20:54:41
+KLEE: test000060.ktest: 2024-04-18 20:55:02
+KLEE: test000061.ktest: 2024-04-18 20:55:02
+KLEE: test000062.ktest: 2024-04-18 20:55:39
+KLEE: test000063.ktest: 2024-04-18 20:56:47
+KLEE: test000064.ktest: 2024-04-18 20:57:28
+KLEE: test000065.ktest: 2024-04-18 21:05:35
+KLEE: test000066.ktest: 2024-04-18 21:07:03
+KLEE: test000067.ktest: 2024-04-18 21:09:27
+KLEE: ERROR: ../lib/nstrftime.c:561: memory error: out of bound pointer
+KLEE: NOTE: now ignoring this error at this location
+KLEE: test000068.ktest: 2024-04-18 21:09:44
+KLEE: test000069.ktest: 2024-04-18 21:18:24
+KLEE: ERROR: libc/string/strlen.c:22: memory error: out of bound pointer
+KLEE: NOTE: now ignoring this error at this location
+KLEE: test000070.ktest: 2024-04-18 21:20:19
+KLEE: test000071.ktest: 2024-04-18 21:20:20
+KLEE: test000072.ktest: 2024-04-18 21:20:27
+KLEE: test000073.ktest: 2024-04-18 21:27:43
+KLEE: test000074.ktest: 2024-04-18 21:27:43
+KLEE: test000075.ktest: 2024-04-18 21:29:42
+KLEE: test000076.ktest: 2024-04-18 21:35:14
+KLEE: test000077.ktest: 2024-04-18 21:35:21
+KLEE: test000078.ktest: 2024-04-18 21:35:28
+KLEE: test000079.ktest: 2024-04-18 21:42:08
+KLEE: test000080.ktest: 2024-04-18 21:51:22
+KLEE: test000081.ktest: 2024-04-18 22:18:45
+KLEE: test000082.ktest: 2024-04-18 22:43:40
+KLEE: HaltTimer invoked

@@ -1,0 +1,14 @@
+Error: failed external call: pthread_create
+File: ../libburn/async.c
+Line: 217
+assembly.ll line: 152178
+Stack: 
+	#000152178 in add_worker (=0, =0, =94606700777480, =94607853558176) at ../libburn/async.c:217
+	#100272976 in burn_drive_scan (=94609921490768, =94607274020536) at ../libburn/async.c:341
+	#200272594 in Xorriso_show_devices (=94606892441600, =0) at ../xorriso/drive_mgt.c:1477
+	#300227681 in Xorriso_option_devices (=94606892441600, =0) at ../xorriso/opts_d_h.c:170
+	#400029528 in Xorriso_interpreter (=94606892441600, =4, =94610710810368, =94606885881496, =2) at ../xorriso/parse_exec.c:1243
+	#500026171 in __klee_posix_wrapped_main (=4, =94606891970832) at ../xorriso/xorriso_main.c:265
+	#600009534 in __user_main (=15, =94606629667056, =94606629667184) at /home/minjong/learch/klee/runtime/POSIX/klee_init_env.c:245
+	#700006122 in __uClibc_main (=15, =94606629667056) at libc/misc/internals/__uClibc_main.c:401
+	#800006288 in main (=15, =94606629667056)

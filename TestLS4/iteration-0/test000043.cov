@@ -1,0 +1,13 @@
+/home/minjong/klee-uclibc/libc/unistd/getopt.c:420
+libc/unistd/getopt.c:820
+libc/unistd/getopt.c:827
+libc/unistd/getopt.c:843
+libc/unistd/getopt.c:863
+libc/unistd/getopt.c:864
+libc/unistd/getopt.c:865
+/home/minjong/symtuner/benchmarks/coreutils-8.32/obj-llvm/../src/ls.c:5336
+../src/ls.c:2283
+../src/ls.c:5336
+../src/ls.c:5338
+../src/ls.c:5339
+../src/ls.c:5519

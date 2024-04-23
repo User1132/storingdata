@@ -1,0 +1,16 @@
+../xorriso/parse_exec.c:954
+../xorriso/parse_exec.c:1461
+../xorriso/iso_tree.c:58
+../xorriso/iso_tree.c:60
+../xorriso/iso_tree.c:62
+../xorriso/iso_tree.c:128
+../xorriso/iso_tree.c:130
+../xorriso/iso_tree.c:131
+../xorriso/iso_tree.c:132
+../xorriso/iso_tree.c:139
+../xorriso/iso_tree.c:154
+../xorriso/iso_tree.c:155
+/home/minjong/symtuner/benchmarks/xorriso-1.5.2/obj-llvm/../xorriso/opts_i_o.c:243
+../xorriso/opts_i_o.c:273
+../xorriso/opts_i_o.c:274
+../xorriso/opts_i_o.c:275

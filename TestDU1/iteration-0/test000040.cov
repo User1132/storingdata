@@ -1,0 +1,10 @@
+/home/minjong/learch/klee/runtime/POSIX/fd.c:1363
+/home/minjong/learch/klee/runtime/POSIX/fd.c:1364
+/home/minjong/learch/klee/runtime/POSIX/fd.c:1368
+/home/minjong/learch/klee/runtime/POSIX/fd.c:1369
+../lib/fts.c:552
+../lib/fts.c:553
+../lib/fts.c:565
+../lib/fts.c:566
+../lib/fts.c:567
+../lib/fts.c:568

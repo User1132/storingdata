@@ -1,0 +1,26 @@
+KLEE: WARNING: undefined reference to function: __ctype_get_mb_cur_max
+KLEE: WARNING: undefined reference to function: fdopendir
+KLEE: WARNING: executable has module level assembly (ignoring)
+KLEE: WARNING ONCE: calling external: syscall(16, 0, 21505, 93896973474080) at /home/minjong/learch/klee/runtime/POSIX/fd.c:991 10
+KLEE: WARNING ONCE: external modified read-only object (originally terminated state)
+KLEE: WARNING ONCE: Alignment of memory from call "malloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: Alignment of memory from call "realloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: Alignment of memory from call "calloc" is not modelled. Using alignment of 8.
+KLEE: WARNING ONCE: calling external: __ctype_get_mb_cur_max() at ../lib/quotearg.c:269 36
+KLEE: WARNING ONCE: external modified read-only object (originally terminated state)
+KLEE: WARNING ONCE: calling external: vprintf(93896875441496, 93896981489504) at libc/stdio/fprintf.c:35 14
+KLEE: WARNING ONCE: external modified read-only object (originally terminated state)
+KLEE: WARNING ONCE: calling close_stdout with extra arguments.
+KLEE: WARNING ONCE: calling external: printf(93896875440040, 93896972702208, 10) at ../src/du.c:422 3
+KLEE: WARNING ONCE: external modified read-only object (originally terminated state)
+KLEE: WARNING ONCE: flushing 255904 bytes on read, may be slow and/or crash: MO371[255904] allocated at global:locale_mmap
+KLEE: WARNING: killing 461 states out of 19140 (over memory cap)
+KLEE: WARNING: killing 460 states out of 19087 (over memory cap)
+KLEE: WARNING: killing 464 states out of 19060 (over memory cap)
+KLEE: WARNING: killing 463 states out of 19028 (over memory cap)
+KLEE: WARNING: killing 466 states out of 18994 (over memory cap)
+KLEE: WARNING: killing 457 states out of 18952 (over memory cap)
+KLEE: WARNING: killing 456 states out of 18925 (over memory cap)
+KLEE: WARNING: killing 455 states out of 18897 (over memory cap)
+KLEE: WARNING: killing 454 states out of 18854 (over memory cap)
+KLEE: WARNING: killing 462 states out of 18814 (over memory cap)

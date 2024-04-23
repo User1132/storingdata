@@ -1,0 +1,71 @@
+KLEE: Using STP solver backend
+KLEE: WorkaroundLLVMPR39177: replaced alias @putchar with clone of function @putchar_unlocked
+KLEE: WorkaroundLLVMPR39177: replaced alias @fputc with clone of function @__fputc_unlocked
+KLEE: WorkaroundLLVMPR39177: replaced alias @fputc_unlocked with clone of function @__fputc_unlocked
+KLEE: WorkaroundLLVMPR39177: replaced alias @fputs with clone of function @fputs_unlocked
+KLEE: WorkaroundLLVMPR39177: replaced alias @fwrite with clone of function @fwrite_unlocked
+KLEE: WorkaroundLLVMPR39177: replaced alias @fgetc_unlocked with clone of function @__fgetc_unlocked
+KLEE: Started: 2024-04-18 13:08:56
+KLEE: test000001.ktest: 2024-04-18 13:09:00
+KLEE: test000002.ktest: 2024-04-18 13:09:00
+KLEE: test000003.ktest: 2024-04-18 13:09:02
+KLEE: test000004.ktest: 2024-04-18 13:09:04
+KLEE: test000005.ktest: 2024-04-18 13:09:04
+KLEE: test000006.ktest: 2024-04-18 13:09:04
+KLEE: test000007.ktest: 2024-04-18 13:09:04
+KLEE: test000008.ktest: 2024-04-18 13:09:04
+KLEE: test000009.ktest: 2024-04-18 13:09:06
+KLEE: test000010.ktest: 2024-04-18 13:09:08
+KLEE: test000011.ktest: 2024-04-18 13:09:10
+KLEE: test000012.ktest: 2024-04-18 13:09:13
+KLEE: test000013.ktest: 2024-04-18 13:09:13
+KLEE: test000014.ktest: 2024-04-18 13:09:14
+KLEE: test000015.ktest: 2024-04-18 13:09:21
+KLEE: test000016.ktest: 2024-04-18 13:09:21
+KLEE: test000017.ktest: 2024-04-18 13:09:21
+KLEE: test000018.ktest: 2024-04-18 13:09:21
+KLEE: test000019.ktest: 2024-04-18 13:09:21
+KLEE: test000020.ktest: 2024-04-18 13:09:22
+KLEE: test000021.ktest: 2024-04-18 13:09:22
+KLEE: test000022.ktest: 2024-04-18 13:09:25
+KLEE: test000023.ktest: 2024-04-18 13:09:53
+KLEE: test000024.ktest: 2024-04-18 13:09:54
+KLEE: test000025.ktest: 2024-04-18 13:10:19
+KLEE: test000026.ktest: 2024-04-18 13:10:24
+KLEE: test000027.ktest: 2024-04-18 13:11:17
+KLEE: test000028.ktest: 2024-04-18 13:11:47
+KLEE: test000029.ktest: 2024-04-18 13:11:48
+KLEE: test000030.ktest: 2024-04-18 13:13:01
+KLEE: test000031.ktest: 2024-04-18 13:14:36
+KLEE: test000032.ktest: 2024-04-18 13:15:10
+KLEE: test000033.ktest: 2024-04-18 13:15:20
+KLEE: test000034.ktest: 2024-04-18 13:15:21
+KLEE: ERROR: libc/misc/dirent/opendir.c:74: concretized symbolic size
+KLEE: NOTE: now ignoring this error at this location
+KLEE: test000035.ktest: 2024-04-18 13:15:23
+KLEE: test000036.ktest: 2024-04-18 13:15:24
+KLEE: test000037.ktest: 2024-04-18 13:15:26
+KLEE: test000038.ktest: 2024-04-18 13:15:26
+KLEE: test000039.ktest: 2024-04-18 13:15:27
+KLEE: test000040.ktest: 2024-04-18 13:16:40
+KLEE: test000041.ktest: 2024-04-18 13:19:11
+KLEE: test000042.ktest: 2024-04-18 13:19:12
+KLEE: test000043.ktest: 2024-04-18 13:19:19
+KLEE: test000044.ktest: 2024-04-18 13:19:23
+KLEE: test000045.ktest: 2024-04-18 13:20:21
+KLEE: test000046.ktest: 2024-04-18 13:20:23
+KLEE: test000047.ktest: 2024-04-18 13:20:25
+KLEE: test000048.ktest: 2024-04-18 13:20:29
+KLEE: test000049.ktest: 2024-04-18 13:22:31
+KLEE: test000050.ktest: 2024-04-18 13:30:31
+KLEE: test000051.ktest: 2024-04-18 13:32:03
+KLEE: test000052.ktest: 2024-04-18 13:32:04
+KLEE: test000053.ktest: 2024-04-18 13:32:04
+KLEE: test000054.ktest: 2024-04-18 13:32:04
+KLEE: test000055.ktest: 2024-04-18 13:32:08
+KLEE: test000056.ktest: 2024-04-18 13:32:09
+KLEE: test000057.ktest: 2024-04-18 13:32:09
+KLEE: test000058.ktest: 2024-04-18 13:44:42
+KLEE: test000059.ktest: 2024-04-18 14:17:00
+KLEE: test000060.ktest: 2024-04-18 14:20:53
+KLEE: HaltTimer invoked

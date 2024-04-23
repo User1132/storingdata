@@ -1,0 +1,14 @@
+../libisofs/messages.c:732
+../xorriso/parse_exec.c:954
+../xorriso/parse_exec.c:1044
+../xorriso/lib_mgt.c:374
+../xorriso/lib_mgt.c:381
+../xorriso/lib_mgt.c:382
+../libburn/init.c:338
+../libburn/init.c:340
+../libburn/init.c:342
+../libburn/init.c:343
+../xorriso/opts_a_c.c:48
+../xorriso/opts_a_c.c:49
+../xorriso/opts_a_c.c:50
+../xorriso/opts_a_c.c:51
