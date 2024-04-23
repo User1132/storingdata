@@ -1,0 +1,23 @@
+/home/minjong/learch/klee/build/bin/klee --simplify-sym-indices --write-cvcs --write-cov --output-module --disable-inlining --optimize --use-forked-solver --use-cex-cache --libc=uclibc --posix-runtime --external-calls=all --watchdog --max-memory-inhibit=false --switch-type=internal --only-output-states-covering-new --dump-states-on-halt=false --output-dir=./TestCF1/iteration-2/ --env-file=/home/minjong/learch/learch/sandbox/test.env --max-memory=4096 --max-time=9000s --use-branching-search --feature-extract --search=ml --model-type=feedforward --model-path=/home/minjong/learch/learch/train/trained/feedforward_2.pt /home/minjong/symtuner/benchmarks/cflow-1.6/obj-llvm1/src/cflow.bc --sym-args 0 1 10 --sym-args 0 2 2 --sym-files 1 8 --sym-stdin 8 --sym-stdout
+PID: 12117
+Using monotonic steady clock with 1/1000000000s resolution
+Started: 2024-04-18 00:02:40
+BEGIN searcher description
+<BranchingSearcher>, baseSearcher:
+<GetFeaturesSearcher>, baseSearcher:
+<MLSearcher></MLSearcher>
+</GetFeaturesSearcher>
+</BranchingSearcher>
+END searcher description
+Finished: 2024-04-18 02:33:19
+Elapsed: 02:30:39
+KLEE: done: explored paths = 912
+KLEE: done: avg. constructs per query = 378
+KLEE: done: total queries = 3633
+KLEE: done: valid queries = 2955
+KLEE: done: invalid queries = 678
+KLEE: done: query cex = 3633
+
+KLEE: done: total instructions = 13219251
+KLEE: done: completed paths = 194
+KLEE: done: generated tests = 25
